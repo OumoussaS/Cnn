@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Pagination */
+
+.page-item.active .page-link {
+  background-color: #e61e4d;
+  border-color: #e61e4d;
+}
+
+.page-link {
+  color: #e61e4d;
+}
+
+.page-link:hover {
+  color: #e61e4d;
+}
